@@ -1,0 +1,7 @@
+# Path: Caddyfile
+# caddy confin file
+ 
+:80 {
+    root */usr/share/caddy
+    file_server
+}
